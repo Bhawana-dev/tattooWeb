@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <base target="_parent">
+    <!--Base StyleSheet!-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Stylesheet for Icons!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="bodyBg">
+
+    <!--Header section!-->
+    <div class="headerDiv">
+            <object data="header.html" style="height: 100%;width:100%">  
+                </object>
+    </div>
+    
+    <!--Center Div Section!-->    
+    <div class="centerDiv" style="background-color: white">
+        <h2 style="text-align: center;text-decoration: underline;margin-bottom: 10px;">Contact Us</h2>
+
+        <!-- Center Left Section -->
+        <div class="centerLeftDiv">
+            <p style="font-size: 14px">
+            Use below form to submit your tattoo ideas / obtain estimates. 
+            Customer feedback is the lifeblood of our business – let us know what’s on your mind, good or bad. We respond to all 
+            customer postings and look forward to hearing from you!.
+            </p>
+            
+            <!--Left Section Form Ahead!-->
+            <form action="validate.html">
+                <fieldset>
+                    <legend style="text-align: center;text-decoration: underline">
+                        Reach Us
+                    </legend>
+
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="nameBox" style="width:60%" maxlength="50"required>
+                    <br><br>
+
+                    <label>Phone Number:</label>
+                    <br>
+                    <label></label>
+                    <input type="text" name="countryCode" style="width:9%" value="+1" required maxlength="10">
+                    <input type="text" name="phoneNumber" style="width:49%" required maxlength="15">
+                    <br><br>
+
+                    <label>Email Address:</label>
+                    <br>
+                    <input type="text" name="emailAddress" style="width:60%" required>
+                    <br><br>
+
+                    <label>Preferred Tattoo Studio Location</label>
+                    <br>
+                    <select style="font-size: 15px" required>
+                        <option value="">Select Location</option>
+                        <option value="1">Mumbai - India</option>
+                        <option value="2">Montreal - Canada</option>
+                    </select>
+                    <br><br>
+
+                    <label>Tattoo Size:</label>
+                    <br>
+                    <select style="font-size: 15px" required>
+                        <option value="">Please Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    X
+                    <select style="font-size: 15px" required>
+                            <option value="">Please Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    Inches
+                    <br><br>
+
+                    <label>Tattoo Description:</label>
+                    <br>
+                    <textarea cols="45" rows="4" placeholder="Describe your tattoo, including a preferred style (if any), color or black, etc."></textarea>
+                    <br><br>
+
+                    <label>Tattoo Placement:</label>
+                    <br>
+                    <textarea cols="55" rows="2" placeholder="Describe the body part where the tattoo will be placed; ex. Shoulder, Leg, Bicep, etc"></textarea>
+                    <br><br>
+
+                    <label>Upload Your Artwork: (optional)</label>
+                    <br>
+                    <input type="file" name="fileUpload" accept=".jpeg,.gif,.png,.jpeg" size="40">
+                    <br><br>
+                    
+                    <div style="text-align: center">
+                    <input type="submit" name="submitButton">
+                    </div>
+                    <br><br>
+
+                </fieldset>
+            </form>
+        </div>
+            
+        <!-- CenterDiv Right Section -->
+        <div class="centerRightDiv">
+            <h3>Inked Tattoo Company - Montreal</h3>
+
+            <label>Address:</label>
+            <br>
+            <address>Boul de Maisonneuve E,<br> 
+                Montréal, QC H2K 4S1
+            </address>
+            <br>
+
+            <label>Email:</label>
+            <br>
+            <label>Isi-mtl@gmail.com</label>
+            <br>
+            <br>
+            
+            <label>Tel:</label>
+            <br>
+            <label>(438)-725-9295</label>
+            <br><br>
+                                    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.232056829238!2d-73.55346228447746!3d45.52553557910171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91ba4da67d76d%3A0x1db0033612c25bfe!2s2100+Boul+de+Maisonneuve+E%2C+Montr%C3%A9al%2C+QC+H2K+4S1!5e0!3m2!1sen!2sca!4v1560784612678!5m2!1sen!2sca" width="500px" height="383px" style="border:0" allowfullscreen></iframe>
+            <br><br>
+
+            <!-- Social media links! -->
+            <label>Follow Us on Social Media :</label>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+        </div>   
+    </div>    
+
+    <!--Footer Class-->
+    <div class="footerClass">
+            <footer>
+                Footer &copy;
+            </footer>
+        </div>
+
+</body>
+</html>

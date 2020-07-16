@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Gallery | Image</title>
+    </head>
+    <style>
+        .gallery-container{
+            height:100%;
+            width:100%;
+            position: relative;
+            background-color:black;
+            opacity: 0.8;
+        }
+        .gallery-image-section{
+            position:absolute;
+            height:50%;
+            width:35%;
+            background-color: #ffffff;
+            top:20%;
+            left:30%;
+        }
+        .gallery-image{
+            width: 100%;
+            height:100%;
+        }
+        .close{
+            position:absolute;
+            top:5%;
+            right:10%;
+        }
+        .gallery-cross{
+            top:2%;
+            right:2%;
+            width:22px;
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <div class="gallery-container">
+            <div class="gallery-image-section">
+                <img class="gallery-image" src="../media/images/catalog/b1.jpg" >
+                <div class="close">
+                    <a href="gallery.html">
+                        <img class="gallery-cross" src="../media/images/catalog/gallery-image/cross.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
